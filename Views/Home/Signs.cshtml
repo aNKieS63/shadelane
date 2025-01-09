@@ -1,0 +1,10 @@
+﻿<h1>Our Neon Signs</h1>
+<div class="signs-gallery">
+    @foreach (var sign in Model)
+    {
+        <div class="sign-item">
+            <img src="@sign.ImagePath" alt="@sign.Name">
+            <p>@sign.Name</p>
+        </div>
+    }
+</div>

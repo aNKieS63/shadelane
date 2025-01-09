@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+h1, h2 {
+    color: #071739;
+}
+
+nav {
+    margin: 20px 0;
+    text-align: center;
+}
+
+    nav a {
+        margin: 0 15px;
+        text-decoration: none;
+        color: #071739;
+        font-weight: bold;
+    }
+
+.signs-gallery {
+    display: flex;
+    gap: 10px;
+}
+
+.sign-item img {
+    width: 200px;
+    border: 2px solid #ccc;
+}
